@@ -16,7 +16,7 @@ function Search() {
     
       }
     const domainInput = (e) => {
-          const [name, value] = e.target;
+           const {name, value} = e.target;
             setDomain({...nomDomain, [name]: value)
 //         setDomain(e.target.value)
 //         console.log(e.target.value)
